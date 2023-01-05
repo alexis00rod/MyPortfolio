@@ -3,9 +3,11 @@ import { Sidebar } from './index'
 
 export const App = () => {
   return (
-    <div>
+    <div className='w-full h-screen flex font-raleway text-white bg-indigo-900'>
       <Sidebar />
-      <Outlet />
+      <div className='px-10 py-10'>
+        <Outlet />
+      </div>
     </div>
   )
 }
