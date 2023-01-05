@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply h-12 px-4 flex items-center font-medium bg-indigo-800 rounded-lg duration-150 shadow-2xl hover:scale-105;
+}
+.btn-primary {
+  @apply w-max;
+}
+.btn-toggle {
+  @apply w-12 text-lg;
+}
 
 .debug {
   @apply border border-red-500;
